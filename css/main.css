@@ -1,3 +1,318 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+  margin: 0;
+  background: linear-gradient(#76278F, #2B1E66);
+}
+/*BLOQUES*/
+
+#menu {
+  background-image: url("./../assets/images/hero.gif");
+  text-align: center;
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  }
+
+#middle {
+    height: 670px;
+    margin-top: -44px
+  }
+
+
+#video-1, #video-2, #video-3{
+  background: white;
+  height: 415px;
+  width: 100%;
+  font-family: Montserrat;
+  color: black;
+}
+
+#video-3 {
+height: 435px;
+}
+
+#end {
+  background: #333447;
+  height: 455px;
+  margin-top: -20px
+}
+.countainer{
+  position: fixed;
+}
+
+header > div > nav {
+  margin: 2px 100px;
+
+}
+
+#menu > nav > .countainer > .barra > .first {
+  padding-top: 44px;
+  padding-right: 152px;
+  position: relative;
+  float: right;
+}
+
+ .barra > .first > .hello {
+  list-style: none;
+  width: 70px;
+  font-size: 20px;
+  display: inline-block; /*Convertir las celdas de la tabla a lineal*/
+  text-align: center;
+  margin: 6px;
+  font-family: Montserrat, sans-serif;
+  color: white;
+}
+
+/*LINKS and Hovers*/
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.home:hover, .about:hover {
+  color: #F601FC;
+}
+
+/*PICTURES*/
+.logo {
+  position: relative;
+  float: left;
+  width: 5%;
+  left:  84px;
+  top: 55px;
+}
+
+.gray {
+  color: #728099;
+  padding-right: 92px;
+}
+
+/*ENCABEZADOS*/
+h3 {
+  padding-left: 54px;
+  padding-top: 50px;
+  font-size: 41px;
+  color: #352384;
+  font-family: Montserrat;
+  font-weight: 800;
+  text-align: left;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 28px;
+  }
+
+h5{
+  font-size: 24px;
+  margin: 0;
+}
+
+h6 {
+    margin: 0;
+  }
+
+/*form*/
+.item > p {
+  padding-left: 54px;
+  font-family: Montserrat;
+  text-align: left;
+  color: #352384;
+}
+
+.form-box {
+  margin-top: 6px;
+}
+
+.item{
+  display: inline-block;
+  float: right;
+  background: white;
+  width: 500px;
+  height: 420px;
+  }
+
+.square-form {
+  padding-top: 125px;
+}
+
+input {
+  font-family: Montserrat;
+  font-weight: lighter;
+  font-size: 24px;
+  border: none;
+  padding-right: 94px;
+  padding-bottom: 0px;
+
+}
+
+#bcome {
+  width: 10%;
+  background-color: #F601FC;
+  color: white;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 200;
+  padding-left: 22px;
+  width: 190px;
+  height: 55px;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+.little {
+  padding-left: 54px;
+  font-size: 10.5px;
+  text-align: left;
+  color: #728099;
+  font-family: Montserrat;
+  font-weight: 12px;
+}
+
+
+.purple {
+  color: #FF00BF;
+  text-decoration: none;
+}
+
+.purple:hover {
+  text-decoration: underline;
+}
+
+#middle > div > img {
+  position: absolute;
+  float: right;
+  width: 39%;
+  padding-left: 57px;
+
+}
+
+.same {
+  margin: 84px;
+  margin-right: 653px;
+
+}
+
+.text {
+  font-size: 17px;
+  font-family: Montserrat;
+  position: relative;
+  float: left;
+  color: white;
+  text-align: left;
+  padding-left: 64px;
+  padding-top: 54px;
+}
+
+.watch{
+    position: absolute;
+    float: left;
+    margin-right: 875px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 32px;
+    left: 44px;
+}
+
+.watch-v {
+    position: relative;
+    float: right;
+}
+
+.june {
+  padding-top: 32px;
+  position: absolute;
+  float: right;
+  margin-left: 815px;
+  font-weight: 600;
+  font-size: 14px;
+  padding-right: 84px;
+  left: 44px;
+
+}
+
+.june-v {
+  position: absolute;
+  float: left;
+}
+
+#last-countainer {
+  margin: 0 85px;
+  padding-top: 42px;
+}
+
+.log, .partner, .learn, .social-m1 {
+  color: white;
+  font-family: Montserrat;
+  display: inline-block;
+  margin-left: 69px;
+}
+
+.social-m1 {
+  display: inline-block;
+}
+
+h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+
+/*ul*/
+.final {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+  margin: 0;
+  width: 150px;
+}
+
+/*li*/
+.about {
+  text-decoration: none;
+  width: 74%;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 28px;
+}
+
+
+.ref {
+  display: block;
+}
+
+.goo {
+width: 51%;
+}
+
+.mi {
+  width: 49.9%;
+}
+
+hr {
+  width: 55%;
+  color: white;
+  weight: 1px solid white;
+}
+#end > div > p {
+  font-size: 14px;
+  font-family: Montserrat;
+  color: white;
+  text-align: center;
+  margin-top: 33px;
+}
+
+.social-m1 > div{
+  width: 253px;
+  padding-top: 34px;
+}
+
+.social-m2 {
+  color: white;
+  width: 99px;
+  text-align: center;
+  margin-top: 66px;
+  margin-left: 474px;
+}

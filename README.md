@@ -90,3 +90,18 @@ Este reto será evaluado sobre lo siguiente:
 * Indentación
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
+
+## Instrucciones
+
+1.- Escribir nuestro código en un bloque principal, este se llamará: claas: "all"
+2.- En el boddy establecemos su background con el degradado proporcionado, esto para mejor manipulación.
+3.- Para el menú principal, crearemos una lista horizontal, estará con posición fixed, esta pisición nos indica que el bloque donde nos movamos, nos mostrara el menú en la parte superior.
+4.- Cada sección esta divida por bloques, en esta uilizamos 7, y el menú principal.
+5.- En el form, solo se pide el número telefonico, indicado esto en nuestro código de html, se manipula los estilos en css para darle propiedades visuales a la páigina de lyft.
+6.- Para los videos se copian los links de YT, de la parte "Insertar", se manipula el tamaño en html, para ajustarse a la pantalla, se acomoda con floats, junto con el texto.
+7.- En el bloque final se almacenan listas ordenadas, imágenes de logos y otras redes sociales, en un contenedor para poder manipularlo correctamente, para que puedan estar alineados de forma horizontal, usamos inline-block,
+    para los ultimos links, creamos una lista ordenada que dejaremos como lista vertical, cambiamos las propiedades de los bloques para que todos puedan estar alineados (son 4).
+8.- Se insertan los logos, de las redes sociales:
+    Para los logos se descargo de fontawesome la carpeta, se linkeo con el sitio original, se indico en nuestro documento la ruta y se copiaron los enlaces según la red social.
+9.- Se establecen propiedades hover de los links en css.    
+10.- Usamos un salto de linea al final, que vamos a modificar de igual forma en css.
