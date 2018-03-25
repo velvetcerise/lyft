@@ -1,20 +1,29 @@
 body {
   margin: 0;
-  background: linear-gradient(#76278F, #2B1E66);
+  background: #76278F;
+
 }
 /*BLOQUES*/
 
 #menu {
   background-image: url("./../assets/images/hero.gif");
   text-align: center;
-  height: 650px;
+  height: 750px;
   width: 100%;
   background-size: cover;
   }
 
+  .degrade {
+    margin-top: -70px;
+    background: linear-gradient(rgba(114, 25, 136, 0.411), #76278F);
+    height: 90px;
+  }
+
 #middle {
     height: 670px;
-    margin-top: -44px
+    margin-top: -44px;
+            background: linear-gradient(#76278F, #2B1E66);
+
   }
 
 
@@ -125,6 +134,7 @@ h6 {
   margin-top: 6px;
 }
 
+
 .item{
   display: inline-block;
   float: right;
@@ -135,6 +145,10 @@ h6 {
 
 .square-form {
   padding-top: 125px;
+}
+
+.input-center {
+  font-weight: bold;
 }
 
 input {
