@@ -1,11 +1,6 @@
 # Lyft
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
-
-
-## Flujo de trabajo
+Creando mi primer sitio web
 
 
 ## Objetivo
@@ -28,11 +23,6 @@ El reto consiste en replicar el sitio de **Lyft**; ![Lyft Website](docs/fullpage
 
   ![Lyft - Footer](docs/footer.gif)
 
-  Iconos obtenidos de: `Icomoon`.
-
-## Videos
-  - Etiqueta `iframe`.
-  - Formularios: `form` e `input`.
 
 * [sitio original](https://www.lyft.com/), (su diseño
   ya ha cambiado en ciertas partes)
