@@ -1,6 +1,6 @@
 # Lyft
 
-Creando mi primer sitio web
+Creando mi primer sitio web, maquetación correspondienrte a segundo sprint, familiarizandome con los primeros conceptos de CSS y html. 
 
 
 ## Objetivo
